@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProjectCreatingViewController" customModule="trainingtask" customModuleProvider="target">
+            <connections>
+                <outlet property="activityView" destination="x6o-5D-BIt" id="YeD-ql-dft"/>
+                <outlet property="projectView" destination="Eph-y7-Xae" id="NqS-ro-010"/>
+                <outlet property="view" destination="Skh-e8-goB" id="me3-hv-gXs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Skh-e8-goB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eph-y7-Xae" customClass="ProjectView" customModule="trainingtask" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view hidden="YES" alpha="0.64999997615814209" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x6o-5D-BIt" customClass="ActivityView" customModule="trainingtask" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="pOl-vZ-GBN"/>
+            <color key="backgroundColor" systemColor="systemTealColor"/>
+            <constraints>
+                <constraint firstItem="pOl-vZ-GBN" firstAttribute="bottom" secondItem="x6o-5D-BIt" secondAttribute="bottom" id="7jQ-zr-4Rh"/>
+                <constraint firstItem="Eph-y7-Xae" firstAttribute="top" secondItem="pOl-vZ-GBN" secondAttribute="top" id="9v2-rg-mBR"/>
+                <constraint firstItem="pOl-vZ-GBN" firstAttribute="trailing" secondItem="Eph-y7-Xae" secondAttribute="trailing" id="Hea-na-h5u"/>
+                <constraint firstItem="Eph-y7-Xae" firstAttribute="leading" secondItem="pOl-vZ-GBN" secondAttribute="leading" id="f49-sn-tAe"/>
+                <constraint firstItem="x6o-5D-BIt" firstAttribute="top" secondItem="pOl-vZ-GBN" secondAttribute="top" id="kON-pI-csm"/>
+                <constraint firstItem="pOl-vZ-GBN" firstAttribute="bottom" secondItem="Eph-y7-Xae" secondAttribute="bottom" id="nIk-ke-16v"/>
+                <constraint firstItem="pOl-vZ-GBN" firstAttribute="trailing" secondItem="x6o-5D-BIt" secondAttribute="trailing" id="xLK-DS-VVP"/>
+                <constraint firstItem="x6o-5D-BIt" firstAttribute="leading" secondItem="pOl-vZ-GBN" secondAttribute="leading" id="z2g-pg-BUK"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="1375.3623188405797" y="-334.15178571428572"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TaskListController" customModule="trainingtask" customModuleProvider="target">
+            <connections>
+                <outlet property="activityView" destination="00r-6D-23T" id="WWh-tT-RZw"/>
+                <outlet property="tasksTableView" destination="GHU-U5-Ixg" id="Rdi-yG-wpA"/>
+                <outlet property="view" destination="aqb-UX-Vof" id="LFP-mf-sCy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aqb-UX-Vof">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GHU-U5-Ixg">
+                    <rect key="frame" x="0.0" y="44" width="414" height="796"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+                <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00r-6D-23T" customClass="ActivityView" customModule="trainingtask" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="00r-6D-23T" firstAttribute="leading" secondItem="wBV-7B-nYl" secondAttribute="leading" id="0Xk-R3-a6e"/>
+                <constraint firstItem="wBV-7B-nYl" firstAttribute="trailing" secondItem="GHU-U5-Ixg" secondAttribute="trailing" id="DPS-hY-DTZ"/>
+                <constraint firstItem="wBV-7B-nYl" firstAttribute="bottom" secondItem="00r-6D-23T" secondAttribute="bottom" id="TRQ-GD-rcr"/>
+                <constraint firstItem="wBV-7B-nYl" firstAttribute="bottom" secondItem="GHU-U5-Ixg" secondAttribute="bottom" constant="22" id="UYZ-kf-Vb3"/>
+                <constraint firstItem="wBV-7B-nYl" firstAttribute="trailing" secondItem="00r-6D-23T" secondAttribute="trailing" id="aON-M3-oPM"/>
+                <constraint firstItem="00r-6D-23T" firstAttribute="top" secondItem="wBV-7B-nYl" secondAttribute="top" id="nVy-4Y-DRe"/>
+                <constraint firstItem="GHU-U5-Ixg" firstAttribute="leading" secondItem="wBV-7B-nYl" secondAttribute="leading" id="nzo-5s-jS3"/>
+                <constraint firstItem="GHU-U5-Ixg" firstAttribute="top" secondItem="wBV-7B-nYl" secondAttribute="top" id="ynE-Uy-Qli"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="wBV-7B-nYl"/>
+            <point key="canvasLocation" x="133" y="154"/>
+        </view>
+    </objects>
+</document>

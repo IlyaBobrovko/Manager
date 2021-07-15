@@ -1,0 +1,63 @@
+"button.save" = "Сохранить";
+
+"button.cancel" = "Отмена";
+
+"button.add" = "Добавить";
+
+"button.ok" = "Ок";
+
+"title.menu" = "Меню";
+
+"title.projects" = "Проекты";
+
+"title.tasks" = "Задачи";
+
+"title.employees" = "Сотрудники";
+
+"title.settings" = "Настройки";
+
+"status.notStarted" = "Не начата";
+
+"status.during" = "В процессе";
+
+"status.ready" = "Завершена";
+
+"status.postponed" = "Отложена";
+
+"error" = "Ошибка";
+
+"tableCellCastError" = "Table cell cast error";
+
+"loadSettingsError" = "Невозможно загрузить настройки.";
+
+"error.validation.task.name" = "Недоступное значение в поле `Название`";
+
+"error.validation.task.workTime" = "Недоступное значение в поле `Рабочее время`";
+
+"error.validation.task.startDate" = "Недоступное значение в поле `Дата начала`";
+
+"error.validation.task.finishDate" = "Недоступное значение в поле `Дата окончания`";
+
+"error.validation.task.dates" = "Дата окончания должна быть больше даты начала";
+
+"error.validation.project.name" = "Недоступное значение в поле `Название`";
+
+"error.validation.project.detail" = "Недоступное значение в поле `Описание`";
+
+"error.validation.employee.name" = "Недоступное значение в поле `Имя`";
+
+"error.validation.employee.surname" = "Недоступное значение в поле `Фамилия`";
+
+"error.validation.employee.middleName" = "Недоступное значение в поле `Отчество`";
+
+"error.validation.employee.post" = "Недоступное значение в поле `Должность`";
+
+"error.validation.settings.url" = "Недоступное значение в поле `URL`";
+
+"error.validation.settings.daysCount" = "Недоступное значение в поле `Количество дней`";
+
+"error.validation.settings.elementsCount" = "Недоступное значение в поле `Количество элементов`";
+
+"error.unknown" = "Неизвестная ошикбка, попробуйте снова.";
+
+"error.server.loading" = "Ошибка загрузки данных, попробуйте снова.";

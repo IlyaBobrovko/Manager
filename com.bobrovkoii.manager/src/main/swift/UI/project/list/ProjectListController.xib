@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProjectListController" customModule="trainingtask" customModuleProvider="target">
+            <connections>
+                <outlet property="activityView" destination="Vzn-OD-eUu" id="Iyi-i0-VSU"/>
+                <outlet property="projectsTableView" destination="7Ro-BB-glk" id="Cly-Uy-kDm"/>
+                <outlet property="view" destination="7IA-SZ-3yn" id="pe5-cx-xL9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7IA-SZ-3yn">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7Ro-BB-glk">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+                <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vzn-OD-eUu" customClass="ActivityView" customModule="trainingtask" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Vzn-OD-eUu" firstAttribute="leading" secondItem="jvF-u5-nIG" secondAttribute="leading" id="7LD-SN-D5n"/>
+                <constraint firstItem="jvF-u5-nIG" firstAttribute="trailing" secondItem="7Ro-BB-glk" secondAttribute="trailing" id="CKO-H1-Dsx"/>
+                <constraint firstItem="jvF-u5-nIG" firstAttribute="trailing" secondItem="Vzn-OD-eUu" secondAttribute="trailing" id="HT1-Ji-eXL"/>
+                <constraint firstItem="jvF-u5-nIG" firstAttribute="bottom" secondItem="Vzn-OD-eUu" secondAttribute="bottom" id="X7P-L8-kOv"/>
+                <constraint firstItem="jvF-u5-nIG" firstAttribute="bottom" secondItem="7Ro-BB-glk" secondAttribute="bottom" id="dmT-8y-SQ5"/>
+                <constraint firstItem="7Ro-BB-glk" firstAttribute="leading" secondItem="jvF-u5-nIG" secondAttribute="leading" id="ePv-9P-Scu"/>
+                <constraint firstItem="7Ro-BB-glk" firstAttribute="top" secondItem="jvF-u5-nIG" secondAttribute="top" id="jbo-nA-g96"/>
+                <constraint firstItem="Vzn-OD-eUu" firstAttribute="top" secondItem="jvF-u5-nIG" secondAttribute="top" id="pgU-Q1-Nvf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="jvF-u5-nIG"/>
+            <point key="canvasLocation" x="169.56521739130437" y="183.48214285714286"/>
+        </view>
+    </objects>
+</document>
